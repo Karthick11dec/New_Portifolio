@@ -2,7 +2,6 @@ import React from 'react';
 import './App.css';
 import Header from "./Components/Header/Header";
 import Hero from "./Components/Hero/Hero";
-import Experience from "./Components/Experience/Experience";
 import Skills from "./Components/Skills/Skills";
 import Portfolio from "./Components/Portfolio/Portfolio";
 import Footer from "./Components/Footer/Footer";

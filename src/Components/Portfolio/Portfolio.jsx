@@ -48,7 +48,7 @@ class Portfolio extends React.Component {
                     <h1 style={{ textTransform: "capitalize" }}>
                         <i>My Works</i>
                     </h1>
-                    <p>
+                    <p className="pb-5">
                         {paragraph}
                     </p>
                 </div>
