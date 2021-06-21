@@ -17,10 +17,11 @@
 }
 
 .about .compliment {
-    font-size: 18px;
-    letter-spacing: 0.025em;
+    font-size: 25px !important;
+    letter-spacing: 2px;
     color: var(--heading-color);
-    text-transform: uppercase;
+    font-family: 'Alex Brush', cursive;
+    font-weight: 500 !important;
 }
 
 .about h1 {
@@ -111,9 +112,12 @@
 }
 
 .clean{
+    /* font-family: 'Allura', cursive; */
+    /* font-family: 'Alex Brush', cursive; */
+    font-family: 'Berkshire Swash', cursive;
     font-size: 45px;
-    font-weight: 600;
-    color: white;
+    /* font-weight: 600; */
+    color: whitesmoke;
     letter-spacing: 1px;
     margin-top: 50px !important;
 }

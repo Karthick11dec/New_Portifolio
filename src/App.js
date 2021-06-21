@@ -24,7 +24,6 @@ class App extends React.Component {
   componentDidMount() {
     //Updating themes once component mounts
     this.updateTheme()
-
     const body = document.querySelector('body')
     const root = document.querySelector('#root')
     const drawer = document.querySelector('.drawer')

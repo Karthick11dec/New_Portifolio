@@ -40,13 +40,13 @@ class Hero extends Component {
                 <div className="row">
                     <div className="about">
                         <h4 className="compliment">
-                            Hey THERE <span role="img" aria-label="Hi!">🙂</span>, I'm
+                            Hey There, I'm
                         </h4>
-                        <h4 className="intro">
+                        <h4 className="intro mt-3 mb-3">
                             <i className="clean">Karthick Raja</i>
                         </h4>
                         <p className="bio">
-                            I'm a MERN stack web developer and brand identity designer 
+                            I'm a MERN stack web developer and brand identity designer
                             in building sleek and scalable user interface,
                             designing unique brand identities,
                             building optimal backend systems and
