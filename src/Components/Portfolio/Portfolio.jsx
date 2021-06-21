@@ -54,7 +54,7 @@ class Portfolio extends React.Component {
                 </div>
                 <div className="portfolio-cards">
                     {
-                        portfolios.reverse().map((portfolio, index) => (
+                        portfolios.map((portfolio, index) => (
                             <Card
                                 key={index}
                                 items={portfolio}

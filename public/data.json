@@ -163,10 +163,10 @@
         {
             "title": "My_Portifolio",
             "type": "Web Development",
-            "image": "./Images/.png",
+            "image": "./Images/screenshot.jpg",
             "description": "A React application for showcasing my Skills,Abilities and explore my Knowledge to the Tech-world.",
             "cta": {
-                "link": "https://kr-portifolio.herokuapp.com/",
+                "link": "https://karthickraja-portifolio.netlify.app/",
                 "git": "https://github.com/Karthick11dec/Portifolio.git"
             },
             "tools": [

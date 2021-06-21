@@ -51,7 +51,7 @@ class Skills extends React.Component{
           platforms to propel competitive advantage and revenue growth. Technically proficient and analytical
           problem solver with calm and focused demeanor.
                     </p>
-                    <p>
+                    <p className="mb-5">
                         <h6>Have Ability to,</h6>
                         <div className="ml-5">
                         Solve problems optimally with javascript.<br></br>

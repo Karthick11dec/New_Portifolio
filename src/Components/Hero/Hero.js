@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./Hero.css"
-import Photo from "../../Assets/Images/pp.jpg";
+import Photo from "../../Assets/Images/Portifolio.jpg";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 
