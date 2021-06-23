@@ -55,7 +55,7 @@ class Hero extends Component {
                         <div className="hero-cta">
                             <ul className="socials">
                                 <li>
-                                    <a href="./karthick-resume.pdf" target="_blank" rel="noopener noreferrer" >
+                                    <a href="./resume.pdf" target="_blank" rel="noopener noreferrer" >
                                         <span><i class="far fa-file-pdf fa-2x"></i></span>
                                     </a>
                                 </li>
