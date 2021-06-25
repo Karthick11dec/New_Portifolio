@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Header from "./Components/Header/Header";
+// import Header from "./Components/Header/Header";
 import Hero from "./Components/Hero/Hero";
 import Skills from "./Components/Skills/Skills";
 import Portfolio from "./Components/Portfolio/Portfolio";
@@ -92,7 +92,7 @@ class App extends React.Component {
     const {loaded, drawContent, draw} = this.state
     return (
       <div className="App">
-        <Header />
+        {/* <Header /> */}
         <Hero loaded={loaded} />
         <Portfolio 
           paragraph="These are some of the jobs I've done in the past."
