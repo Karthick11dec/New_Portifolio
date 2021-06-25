@@ -1,16 +1,15 @@
 import React from 'react';
 import './App.css';
-// import Header from "./Components/Header/Header";
 import Hero from "./Components/Hero/Hero";
 import Skills from "./Components/Skills/Skills";
 import Portfolio from "./Components/Portfolio/Portfolio";
 import Footer from "./Components/Footer/Footer";
-import {Drawer} from "./Components/Drawer/Drawer";
+import { Drawer } from "./Components/Drawer/Drawer";
 import Preloader from "./Components/Preloader/Preloader"
 import "./Assets/Icons/icon.css";
 
 class App extends React.Component {
-  constructor(){
+  constructor() {
     super();
     this.state = {
       loaded: false,
@@ -31,12 +30,12 @@ class App extends React.Component {
     // Disabling scroll until elements are fully loaded
     document.onreadystatechange = () => {
       if (document.readyState !== "complete") {
-        this.setState({...this.state, loaded: false}, () => {
+        this.setState({ ...this.state, loaded: false }, () => {
           body.style.overflow = "hidden"
           root.style.overflow = "hidden"
         })
-      } else{
-        this.setState({...this.state, loaded: true}, () => {
+      } else {
+        this.setState({ ...this.state, loaded: true }, () => {
           body.style.overflow = "auto"
           root.style.overflow = "auto"
           drawer.style.display = "none"
@@ -54,26 +53,26 @@ class App extends React.Component {
         body.style.overflow = "auto"
         root.style.overflow = "auto"
       })
-      
+
     })
   }
 
-  Draw (i) {
+  Draw(i) {
     const body = document.querySelector('body')
     const root = document.querySelector('#root')
 
-    this.setState({...this.state, loaded: false}, () => {
+    this.setState({ ...this.state, loaded: false }, () => {
       body.style.overflow = "hidden"
       root.style.overflow = "hidden"
     })
 
     fetch("./data.json")
-    .then(response => response.json())
-    .then(data => {
-        this.setState({...this.state, loaded: true});
-        this.setState({drawContent: data.portfolio[i], draw: !this.state.draw})
-    })
-    .catch(error => console.log(error))
+      .then(response => response.json())
+      .then(data => {
+        this.setState({ ...this.state, loaded: true });
+        this.setState({ drawContent: data.portfolio[i], draw: !this.state.draw })
+      })
+      .catch(error => console.log(error))
   }
 
   updateTheme() {
@@ -81,27 +80,26 @@ class App extends React.Component {
     const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
 
     if (currentTheme) {
-        document.documentElement.setAttribute('data-theme', currentTheme);
-        if (currentTheme === 'light') {
-            toggleSwitch.checked = true;
-        }
+      document.documentElement.setAttribute('data-theme', currentTheme);
+      if (currentTheme === 'light') {
+        toggleSwitch.checked = true;
+      }
     }
   }
 
   render() {
-    const {loaded, drawContent, draw} = this.state
+    const { loaded, drawContent, draw } = this.state
     return (
       <div className="App">
-        {/* <Header /> */}
         <Hero loaded={loaded} />
-        <Portfolio 
+        <Portfolio
           paragraph="These are some of the jobs I've done in the past."
           draw={this.Draw}
         />
-        <Skills/>
+        <Skills />
         <Footer />
-        <Drawer content={drawContent} draw={draw}/>
-        <Preloader loaded={loaded}/>
+        <Drawer content={drawContent} draw={draw} />
+        <Preloader loaded={loaded} />
       </div>
     )
   }
