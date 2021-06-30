@@ -175,16 +175,17 @@
             "title": "Twinspark_Whether",
             "type": "Web Development",
             "image": "./Images/twinspark.png",
-            "description": "A Frontend application for knowing the Weather Details around the Geographic Locations..",
+            "description": "A React application for knowing the Weather Details around the Geographic Locations..",
             "cta": {
-                "link": "https://twispark-weather.netlify.app/",
-                "git": "https://github.com/Karthick11dec/Project-3_Twinspark.git"
+                "link": "https://react-twinspark.netlify.app/",
+                "git": "https://github.com/Karthick11dec/React-Weather.git"
             },
             "tools": [
                 "HTML",
                 "CSS",
                 "Bootstrap",
                 "Javascript",
+                "React",
                 "Git",
                 "Netlify"
             ]
