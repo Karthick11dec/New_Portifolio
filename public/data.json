@@ -44,7 +44,7 @@
             "image": "./Images/sms.png",
             "description": "A MERN application for sending Message Secretly that can view only by the Specfic receiver.",
             "cta": {
-                "link": "https://secret-frontend.netlify.app/",
+                "link": "https://secret-message-service.netlify.app/",
                 "git": "https://github.com/Karthick11dec/Secret-sms_FS_Link.git"
             },
             "tools": [
