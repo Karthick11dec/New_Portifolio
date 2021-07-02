@@ -96,63 +96,6 @@
             ]
         },
         {
-            "title": "Tic_Toc_Toe",
-            "type": "Game",
-            "image": "./Images/tic.jpg",
-            "description": "A React Gaming application for an Entertainment and meet the chicken_dinner.",
-            "cta": {
-                "link": "https://react-tic-tac-toe-new.netlify.app/",
-                "git": "https://github.com/Karthick11dec/React-tic_toc_toe.git"
-            },
-            "tools": [
-                "HTML",
-                "CSS",
-                "Bootstrap",
-                "Javascript",
-                "React",
-                "Git",
-                "Netlify"
-            ]
-        },
-        {
-            "title": "React_Pagination",
-            "type": "Web Development",
-            "image": "./Images/pagination.jpg",
-            "description": "A React application is for Control the flow of Showcasing Data's.",
-            "cta": {
-                "link": "https://react-paginaion-new.netlify.app/",
-                "git": "https://github.com/Karthick11dec/React_Pagination.git"
-            },
-            "tools": [
-                "HTML",
-                "CSS",
-                "Bootstrap",
-                "Javascript",
-                "React",
-                "Git",
-                "Netlify"
-            ]
-        },
-        {
-            "title": "Todo_App",
-            "type": "Web Development",
-            "image": "./Images/todo.png",
-            "description": "A React application for Notedown anything and Remember it.",
-            "cta": {
-                "link": "https://todoreact-new.netlify.app/",
-                "git": "https://github.com/Karthick11dec/React_Todo.git"
-            },
-            "tools": [
-                "HTML",
-                "CSS",
-                "Bootstrap",
-                "Javascript",
-                "React",
-                "Git",
-                "Netlify"
-            ]
-        },
-        {
             "title": "News_App",
             "type": "Web Development",
             "image": "./Images/news.jpg",
@@ -191,6 +134,62 @@
             ]
         },
         {
+            "title": "Recipe_Search",
+            "type": "Web Development",
+            "image": "./Images/recipe.jpg",
+            "description": "A Frontend application for Getting a varity of Food recipes and cook it,taste it,celebrate it with family.",
+            "cta": {
+                "link": "https://recipesearch-diadam.netlify.app/",
+                "git": "https://github.com/Karthick11dec/Day26-Recipe-Search.git"
+            },
+            "tools": [
+                "HTML",
+                "CSS",
+                "Bootstrap",
+                "Javascript",
+                "Git",
+                "Netlify"
+            ]
+        },
+        {
+            "title": "Tic_Toc_Toe",
+            "type": "Game",
+            "image": "./Images/tic.jpg",
+            "description": "A React Gaming application for an Entertainment and meet the chicken_dinner.",
+            "cta": {
+                "link": "https://react-tic-tac-toe-new.netlify.app/",
+                "git": "https://github.com/Karthick11dec/React-tic_toc_toe.git"
+            },
+            "tools": [
+                "HTML",
+                "CSS",
+                "Bootstrap",
+                "Javascript",
+                "React",
+                "Git",
+                "Netlify"
+            ]
+        },
+        {
+            "title": "Todo_App",
+            "type": "Web Development",
+            "image": "./Images/todo.png",
+            "description": "A React application for Notedown anything and Remember it.",
+            "cta": {
+                "link": "https://todoreact-new.netlify.app/",
+                "git": "https://github.com/Karthick11dec/React_Todo.git"
+            },
+            "tools": [
+                "HTML",
+                "CSS",
+                "Bootstrap",
+                "Javascript",
+                "React",
+                "Git",
+                "Netlify"
+            ]
+        },
+        {
             "title": "Random_Fox_Creator",
             "type": "Web Development",
             "image": "./Images/fox.jpg",
@@ -209,19 +208,20 @@
             ]
         },
         {
-            "title": "Recipe_Search",
+            "title": "React_Pagination",
             "type": "Web Development",
-            "image": "./Images/recipe.jpg",
-            "description": "A Frontend application for Getting a varity of Food recipes and cook it,taste it,celebrate it with family.",
+            "image": "./Images/pagination.jpg",
+            "description": "A React application is for Control the flow of Showcasing Data's.",
             "cta": {
-                "link": "https://recipesearch-diadam.netlify.app/",
-                "git": "https://github.com/Karthick11dec/Day26-Recipe-Search.git"
+                "link": "https://react-paginaion-new.netlify.app/",
+                "git": "https://github.com/Karthick11dec/React_Pagination.git"
             },
             "tools": [
                 "HTML",
                 "CSS",
                 "Bootstrap",
                 "Javascript",
+                "React",
                 "Git",
                 "Netlify"
             ]
