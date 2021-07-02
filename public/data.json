@@ -147,6 +147,7 @@
                 "CSS",
                 "Bootstrap",
                 "Javascript",
+                "React",
                 "Git",
                 "Netlify"
             ]
@@ -185,24 +186,6 @@
                 "Bootstrap",
                 "Javascript",
                 "React",
-                "Git",
-                "Netlify"
-            ]
-        },
-        {
-            "title": "Random_Fox_Creator",
-            "type": "Web Development",
-            "image": "./Images/fox.jpg",
-            "description": "A Frontend application for Genarating a Random Fox'es.,All Catogries.",
-            "cta": {
-                "link": "https://foxgenarator.netlify.app/",
-                "git": "https://github.com/Karthick11dec/Project-4_Fox_genarator.git"
-            },
-            "tools": [
-                "HTML",
-                "CSS",
-                "Bootstrap",
-                "Javascript",
                 "Git",
                 "Netlify"
             ]
