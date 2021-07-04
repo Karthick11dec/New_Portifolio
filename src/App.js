@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Hero from "./Components/Hero/Hero";
 import Skills from "./Components/Skills/Skills";
+import Certificates from "./Components/Certificates/Certificates";
 import Portfolio from "./Components/Portfolio/Portfolio";
 import Footer from "./Components/Footer/Footer";
 import { Drawer } from "./Components/Drawer/Drawer";
@@ -92,11 +93,12 @@ class App extends React.Component {
     return (
       <div className="App">
         <Hero loaded={loaded} />
+        <Skills />
+        <Certificates />
         <Portfolio
           paragraph="These are some of the jobs I've done in the past."
           draw={this.Draw}
         />
-        <Skills />
         <Footer />
         <Drawer content={drawContent} draw={draw} />
         <Preloader loaded={loaded} />

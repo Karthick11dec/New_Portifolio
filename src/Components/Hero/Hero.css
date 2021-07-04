@@ -1,5 +1,5 @@
 .hero {
-    padding: 50px 30px;
+    padding: 50px 30px 10px 30px;
     background: var(--background-color);
 }
 
@@ -13,7 +13,7 @@
 .about {
     flex-basis: 100%;
     max-width: 100%;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .about .compliment {
@@ -44,13 +44,14 @@
 
 .hero .image {
     flex-basis: 100%;
-    max-width: 100%;
+    max-width: 80%;
     margin-bottom: 20px;
 }
 
 .hero .image img {
     box-shadow: 0 0 30px var(--card-shadow-color);
     border: 4px solid var(--primary-color);
+    margin-bottom: 20px;
 }
 
 .socials {
@@ -62,8 +63,8 @@
 .socials li {
     list-style: none;
     margin: 0 10px;
-    height: 40px !important;
-    width: 40px !important;
+    height: 30px !important;
+    width: 30px !important;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -94,6 +95,8 @@
 .hero-cta {
     display: flex;
     margin-left: 10px;
+    flex-direction: column;
+    align-items: center;
 }
 
 .hero-cta>a {
@@ -112,17 +115,27 @@
 }
 
 .clean{
-    /* font-family: 'Allura', cursive; */
-    /* font-family: 'Alex Brush', cursive; */
-    font-family: 'Berkshire Swash', cursive;
-    font-size: 45px;
-    /* font-weight: 600; */
+    /* font-family: cursive; */
+    font-family: 'Cinzel', serif;
+    font-size: 35px;
     color: whitesmoke;
     letter-spacing: 1px;
     margin-top: 50px !important;
 }
 
+.bio{
+    text-align: justify !important;
+}
+
 @media only screen and (min-width: 600px) {
+    .clean{
+        /* font-family: cursive; */
+        font-family: 'Cinzel', serif;
+        font-size: 45px;
+        color: whitesmoke;
+        letter-spacing: 1px;
+        margin-top: 50px !important;
+    }
     .hero {
         padding: 70px 70px 80px 70px;
         background: var(--background-color) url("../../Assets/Images/pattern.svg");
@@ -176,8 +189,8 @@
     .socials li {
         list-style: none;
         margin: 0 15px;
-        height: 40px !important;
-        width: 40px !important;
+        height: 30px !important;
+        width: 30px !important;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -203,6 +216,8 @@
     }
     .hero-cta {
         display: flex;
+        flex-direction: row;
+        align-items: center;
     }
     .hero-cta>a {
         text-decoration: none;
@@ -221,6 +236,14 @@
 }
 
 @media only screen and (min-width: 961px) {
+    .clean{
+        /* font-family: cursive; */
+        font-family: 'Cinzel', serif;
+        font-size: 45px;
+        color: whitesmoke;
+        letter-spacing: 1px;
+        margin-top: 50px !important;
+    }
     .hero {
         padding: 70px 70px 50px 70px;
         background: var(--background-color) url("../../Assets/Images/pattern.svg");
@@ -253,7 +276,7 @@
     }
     .hero .image {
         flex-basis: 40%;
-        max-width: 40%;
+        max-width: 100%;
         margin-bottom: 0;
     }
     .hero .image img {
@@ -268,8 +291,8 @@
     .socials li {
         list-style: none;
         margin: 0 15px;
-        height: 40px !important;
-        width: 40px !important;
+        height: 30px !important;
+        width: 30px !important;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -295,6 +318,8 @@
     }
     .hero-cta {
         display: flex;
+        flex-direction: row;
+        align-items: center;
     }
     .hero-cta>a {
         text-decoration: none;

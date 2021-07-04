@@ -191,25 +191,6 @@
             ]
         },
         {
-            "title": "React_Pagination",
-            "type": "Web Development",
-            "image": "./Images/pagination.jpg",
-            "description": "A React application is for Control the flow of Showcasing Data's.",
-            "cta": {
-                "link": "https://react-paginaion-new.netlify.app/",
-                "git": "https://github.com/Karthick11dec/React_Pagination"
-            },
-            "tools": [
-                "HTML",
-                "CSS",
-                "Bootstrap",
-                "Javascript",
-                "React",
-                "Git",
-                "Netlify"
-            ]
-        },
-        {
             "title": "My_Portifolio",
             "type": "Web Development",
             "image": "./Images/screenshot.jpg",

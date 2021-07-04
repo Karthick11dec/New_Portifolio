@@ -3,10 +3,15 @@
     background: var(--background-color);
 }
 
+.align{
+    text-align: justify;
+}
+
 .skills-cards {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 10px;
+    grid-template-columns: auto auto;
+    gap: 20px;
+    justify-content: space-evenly;
 }
 
 .skill-card>ul>li {
@@ -41,8 +46,9 @@
     }
     .skills-cards {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        gap: 10px;
+        grid-template-columns: auto auto auto;
+        gap: 20px;
+        justify-content: space-evenly;
     }
 }
 
@@ -60,6 +66,7 @@
     .skills-cards {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        justify-content: space-evenly;
         gap: 10px;
     }
 }

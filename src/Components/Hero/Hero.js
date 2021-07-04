@@ -56,15 +56,20 @@ class Hero extends Component {
                             <ul className="socials">
                                 <li>
                                     <a href="https://drive.google.com/file/d/1pAttj0WWt_S33WAIpEz2a1NlDw-8cVli/view?usp=sharing" target="_blank" rel="noopener noreferrer" >
-                                        <span><i class="far fa-file-pdf fa-2x"></i></span>
+                                        <span><i class="far fa-file-pdf"></i></span>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="https://github.com/Karthick11dec?tab=repositories" target="_blank" rel="noopener noreferrer" >
-                                        <span><i class="fab fa-github fa-2x"></i></span>
+                                        <span><i class="fab fa-github"></i></span>
                                     </a>
                                 </li>
                             </ul>
+                            <a href="#certificate">
+                                <span className="d-flex mx-auto my-auto">Certificates
+                                    <span className="icon icon-moonarrow-down2"></span>
+                                </span>
+                            </a>
                             <a href="#portfolio">
                                 <span className="d-flex mx-auto my-auto">My Portifolio
                                     <span className="icon icon-moonarrow-down2"></span>
