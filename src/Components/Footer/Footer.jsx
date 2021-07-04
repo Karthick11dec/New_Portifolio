@@ -6,7 +6,7 @@ class Footer extends React.Component {
         return (
             <footer>
                 <div className="contact">
-                    <a href="mailto:valentineelum@gmail.com" target="_blank" rel="noopener noreferrer" className="special"><span className="icon icon-moonmail4"></span> Hire Me</a>
+                    <a href="mailto:karthickraja11dec@gmail.com" target="_blank" rel="noopener noreferrer" className="special"><span className="icon icon-moonmail4"></span> Hire Me</a>
                     <ul className="socials">
                         <li>
                             <a href="https://drive.google.com/file/d/1pAttj0WWt_S33WAIpEz2a1NlDw-8cVli/view?usp=sharing" target="_blank" rel="noopener noreferrer" >
