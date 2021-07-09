@@ -13,7 +13,7 @@ function Certificates() {
                 </h1>
                 <div className="display">
                     <a
-                        href="https://www.guvi.in/karthickraja11dec"
+                        href="https://drive.google.com/drive/folders/1skRi-swWBFWPH4IiIt2gr8sED_Sp5ZnB?usp=sharing"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="container"
